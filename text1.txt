@@ -1,0 +1,3 @@
+A File is an abstraction of any file object accessible by the program and is closely associated with class IO. File includes the methods of module FileTest as class methods, allowing you to write (for example) File.exist?("foo").
+
+In the description of File methods, permission bits are a platform-specific set of bits that indicate permissions of a file. On Unix-based systems, permissions are viewed as a set of three octets, for the owner, the group, and the rest of the world. For each of these entities, permissions may be set to read, write, or execute the file:
